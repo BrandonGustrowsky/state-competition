@@ -8,8 +8,6 @@
     --dark-gray: #1D2128; /** Taken from github.com **/
     --light-gray: #343941; /** Taken from github.com **/
     --soft-gray: #f3f7fa; /** From canva site https://www.canva.com/templates/EAEdsG2JPP4-blue-travel-offers-deals-website/ **/
-
-    font-family: 'Inter', sans-serif;
 }
 
 html, body, main {
@@ -20,4 +18,5 @@ html, body, main {
 
 * {
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
