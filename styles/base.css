@@ -7,10 +7,10 @@
     --bluish:#88CEE5;
     --dark-gray: #1D2128; /** Taken from github.com **/
     --light-gray: #343941; /** Taken from github.com **/
-    --soft-gray: #f3f7fa;
+    --soft-gray: #f3f7fa; /** From canva site https://www.canva.com/templates/EAEdsG2JPP4-blue-travel-offers-deals-website/ **/
 }
 
-html, body {
+html, body, main {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
