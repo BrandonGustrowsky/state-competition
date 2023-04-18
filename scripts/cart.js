@@ -11,16 +11,18 @@ class Booking {
         this.name = name;
         this.email = email;
         this.date = date;
+        this.photographer = photographer
     }
 }
 
 const saveData = () => {
-    const bookingInfo = new Booking(nameInput.value, emailInput.value, dateInput.value);
+    const bookingInfo = new Booking(nameInput.value, emailInput.value, dateInput.value, photographer);
     
     // Reset all the inputs
     nameInput.value = "";
     emailInput.value = "";
     dateInput.value = "";
+    photographer = "";
 
     //Add to the global array of bookings
     cartData.push(bookingInfo)
@@ -28,16 +30,18 @@ const saveData = () => {
     closeModal();
 }
 
-const openAndPopulateModal = () => {
+const openAndPopulateModal = (event) => {
+    photographer = event.target.dataset.value;
     bookingModal.classList.add("is-active");
 }
 
 const closeModal = () => {
     bookingModal.classList.remove("is-active");
+    photographer = "";
 }
 
 bookBtns.forEach(btn => {
-    btn.addEventListener("click", openAndPopulateModal);
+    btn.addEventListener("click", event => openAndPopulateModal(event));
 })
 
 bookingModalCloseBtns.forEach(button => {
