@@ -71,6 +71,8 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
 }
 
 .nav-content-container>h1 {
@@ -87,12 +89,37 @@ nav {
     width: 400px;
     margin: auto;
     text-shadow: 0 0 4px black;
+    text-align: center;
     font-weight: 300;
     font-size: 18px;
     color: white;
+    margin-top: 24px;
 }
 
 .nav-content-container>a {
     font-weight: 700;
     /* font-size: 30px; */
+}
+
+@media screen and (max-width: 640px) {
+    .nav-content-container>h1 {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .nav-content-container>h1 {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .nav-content-container>h1 {
+        font-size: 50px;
+    }
+
+    .nav-content-container>p {
+        font-size: 16px;
+        width: 90%;
+    }    
 }
