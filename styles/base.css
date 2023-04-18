@@ -1,6 +1,10 @@
 :root {
-/* Color palette generated from Color Palette from Image https://apps.apple.com/us/app/color-palette-from-image/id950112142?mt=12 */
-
+    /* Color palette generated from Color Palette from Image https://apps.apple.com/us/app/color-palette-from-image/id950112142?mt=12 */
+    --dark-blue: #172836;
+    --aqua: #14B9D7;
+    --maroon: #774969;
+    --redish: #DC395A;
+    --bluish:#88CEE5;
 }
 
 html, body {
