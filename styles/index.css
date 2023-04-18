@@ -144,7 +144,7 @@ nav {
     font-size: 75px;
     font-weight: 300;
     letter-spacing: 5px;
-    color: white;
+    color: var(--bluish);
 }
 
 .about-content {
@@ -211,6 +211,14 @@ nav {
 
 .stats-number {
     color: white;
+}
+
+.color-count  {
+    color: var(--redish);
+}
+
+.year-count {
+    color: var(--bluish);
 }
   
 /* Gallery Section */
@@ -303,7 +311,10 @@ nav {
 }
 
 #gallery>a {
-    font-weight: 700;    
+    font-weight: 700;
+    background-color: var(--redish);
+    color: white;
+    border: none;
 }
 
 @media screen and (max-width: 930px) {
