@@ -7,6 +7,7 @@
     --bluish:#88CEE5;
     --dark-gray: #1D2128; /** Taken from github.com **/
     --light-gray: #343941; /** Taken from github.com **/
+    --soft-gray: #f3f7fa;
 }
 
 html, body {
