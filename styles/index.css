@@ -123,3 +123,49 @@ nav {
         width: 90%;
     }    
 }
+
+/* About section */
+#about-section {
+    width: 100%;
+    height: 800px;
+    background-color: var(--dark-gray);
+    padding: 10%;
+    display: flex;
+    gap: 40px;
+
+}
+
+.about-header {
+    flex: 1;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    font-size: 75px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    color: white;
+}
+
+.about-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+    font-weight: 300;
+    padding: 30px;
+    /* padding-right: 60px; */
+    line-height: 25px;
+}
+
+.about-1 {
+
+}
+
+.about-content>a {
+    font-weight: 700;
+    width: 245px;
+}
+
+
