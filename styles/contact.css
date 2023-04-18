@@ -37,10 +37,10 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.contactUsText {
+.contact-us-text {
     font-size: 40px;
     text-align: center;
-    color: var(--soft-gray);
+    color: var(--bluish);
     font-weight: 700;
 }
 
@@ -49,6 +49,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.submit-btn  {
+    background-color: var(--bluish);
+}
+
+#cancel-btn {
+    background-color: var(--redish);
+    color: white;
 }
 
 @media screen and (max-width: 900px) {
