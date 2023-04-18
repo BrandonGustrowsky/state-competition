@@ -1,5 +1,2 @@
-- run through a standards checker
-- animations (observer, etc.)
 - make sure links work
-- add description to readme
 - make logo clickable to home
