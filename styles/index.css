@@ -172,6 +172,7 @@ nav {
 #stats {
     background-color: var(--dark-gray);
 }
+
 .level  {
     display: flex;
     justify-content: center;
