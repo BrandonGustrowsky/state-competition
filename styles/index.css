@@ -1,6 +1,6 @@
 @import url('base.css');
 
-header {
+.index-header {
     width: 100%;
     height: 100vh;
     max-height: 1200px;
@@ -65,15 +65,34 @@ nav {
 } */
 
 .nav-content-container {
-    margin-top: 10%;
-    width: 650px;
+    margin: 10% auto 0;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
+    align-items: center;
 }
 
 .nav-content-container>h1 {
-    font-size: 60px;
+    font-size: 85px;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: 0 0 8px black;
+    font-weight: 300;
+    color: white;
 }
 
+.nav-content-container>p  {
+    /* margin-left: 20%; */
+    width: 400px;
+    margin: auto;
+    text-shadow: 0 0 4px black;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+}
+
+.nav-content-container>a {
+    font-weight: 700;
+    /* font-size: 30px; */
+}
