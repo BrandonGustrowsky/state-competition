@@ -49,6 +49,10 @@
         </nav>
     </header>
     <main>
+        <div class="cart-icon-container">
+            <i class="bi bi-cart3" id="checkout-cart"></i>
+        </div>
+        <h1 class="headerPhoto">Meet the Photographers</h1>
         <section class="cards-container">
             <!-- CARD 1 -->
             <div class="card">
@@ -256,7 +260,7 @@
                         <div class="field">
                             <label class="label">Date</label>
                             <div class="control has-icons-left">
-                                <input type="date" id="date-input"/>
+                                <input type="date" id="date-input" />
                             </div>
                         </div>
                     </form>
@@ -264,6 +268,24 @@
                 <footer class="modal-card-foot">
                     <button class="button is-success close-modal submit-btn" onclick="saveData()">Add to Cart</button>
                     <button class="button close-modal">Cancel</button>
+                </footer>
+            </div>
+        </div>
+
+        <!-- CHECKOUT MODAL -->
+
+        <div class="modal" id="checkout-modal">
+            <div class="modal-background"></div>
+            <div class="modal-card">
+                <header class="modal-card-head">
+                    <p class="modal-card-title">Checkout</p>
+                    <button class="delete close-checkout-modal" aria-label="close"></button>
+                </header>
+                <section class="modal-card-body" id="checkout-card-body">
+                </section>
+                <footer class="modal-card-foot">
+                    <button class="button is-success close-checkout-modal submit-btn">Purchase</button>
+                    <button class="button close-checkout-modal">Cancel</button>
                 </footer>
             </div>
         </div>

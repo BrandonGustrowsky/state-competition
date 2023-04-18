@@ -115,3 +115,44 @@
     background-position: -30px -100px;
 }
 
+.cart-icon-container {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    padding-right: 30px;
+}
+
+.bi-cart3 {
+    color: var(--soft-gray);
+    font-size: 50px;
+    transition: 0.5s ease-out;
+}
+
+.bi-cart3:hover {
+    cursor: pointer;
+    color: var(--redish);
+}
+
+.modal-card-element {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+}
+
+.photographerOutput {
+    font-size: 25px;
+    color: var(--soft-gray);
+}
+
+.timeOutput {
+    font-size: 22px;
+    color: var(--soft-gray);
+}
+
+.headerPhoto {
+    font-size: 50px;
+    font-weight: 300;
+    color: var(--soft-gray);
+    text-align: center;
+}

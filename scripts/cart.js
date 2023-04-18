@@ -4,6 +4,13 @@ const bookBtns = document.querySelectorAll(".book-btn");
 const nameInput = document.getElementById("name-input");
 const emailInput = document.getElementById("email-input");
 const dateInput = document.getElementById("date-input");
+
+// Checkout modal variables
+const checkoutCart = document.getElementById("checkout-cart");
+const checkoutModal = document.getElementById("checkout-modal");
+const closeCheckoutModalBtns = document.querySelectorAll(".close-checkout-modal");
+const checkoutCardBody = document.getElementById("checkout-card-body");
+
 const cartData = [];
 
 class Booking {
@@ -17,7 +24,7 @@ class Booking {
 
 const saveData = () => {
     const bookingInfo = new Booking(nameInput.value, emailInput.value, dateInput.value, photographer);
-    
+
     // Reset all the inputs
     nameInput.value = "";
     emailInput.value = "";
@@ -40,6 +47,38 @@ const closeModal = () => {
     photographer = "";
 }
 
+const showCheckoutModal = () => {
+    checkoutModal.classList.add("is-active");
+    addCheckoutElement();
+}
+
+const closeCheckoutModal = () => {
+
+    checkoutModal.classList.remove("is-active");
+    while (checkoutCardBody.firstChild) {
+        checkoutCardBody.removeChild(checkoutCardBody.firstChild);
+    }
+}
+
+const addCheckoutElement = () => {
+    cartData.forEach(booking => {
+        const container = document.createElement("div");
+        container.classList.add("modal-card-element");
+        console.log(booking); container.classList.add("modal-card-element");
+        const photographerName = document.createElement("p")
+        photographerName.innerText = booking.photographer;
+        photographerName.classList.add("photographerOutput");
+        console.log(photographerName);
+        const timeOutput = document.createElement("p");
+        timeOutput.innerText = booking.date;
+        timeOutput.classList.add("timeOutput");
+        console.log(timeOutput);
+        container.appendChild(photographerName);
+        container.appendChild(timeOutput);
+        checkoutCardBody.appendChild(container);
+    })
+}
+
 bookBtns.forEach(btn => {
     btn.addEventListener("click", event => openAndPopulateModal(event));
 })
@@ -47,3 +86,9 @@ bookBtns.forEach(btn => {
 bookingModalCloseBtns.forEach(button => {
     button.addEventListener("click", closeModal);
 })
+
+closeCheckoutModalBtns.forEach(btn => {
+    btn.addEventListener("click", closeCheckoutModal)
+})
+
+checkoutCart.addEventListener("click", showCheckoutModal);
