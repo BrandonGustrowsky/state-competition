@@ -1,3 +1,2 @@
 - run through a standards checker
-- add smooth scrolling
 - animations (observer, etc.)
