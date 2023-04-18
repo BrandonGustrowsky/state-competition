@@ -1,2 +1,3 @@
 - run through a standards checker
 - animations (observer, etc.)
+- make sure links work

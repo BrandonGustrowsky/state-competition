@@ -6,6 +6,7 @@
 
 ## Templates
     - Website layout/templting borrowed heavily from https://www.canva.com/templates/EAEkUdIy0So-white-and-black-simple-dark-design-portfolio-website/
+    - Photographers page card/background colors borrowed from https://www.canva.com/templates/EAEdsG2JPP4-blue-travel-offers-deals-website/
 
 ### Images
 - heroImg.jpg Photo by Jean-Daniel Francoeur: https://www.pexels.com/photo/photo-of-a-man-using-a-black-camera-2799785/
