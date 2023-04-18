@@ -168,6 +168,27 @@ nav {
     width: 245px;
 }
 
+@media screen and (max-width: 800px) {
+    #about-section {
+        flex-direction: column-reverse;
+    }
+
+    .about-header {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        /* padding: 30px; */
+        /* margin: auto; */
+    }
+}
+
+@media screen and (max-width: 560px) {
+    #about-section {
+        height: 1000px;
+    }
+}
+
 /* Stats Section */
 #stats {
     background-color: var(--dark-gray);
