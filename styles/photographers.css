@@ -1,0 +1,104 @@
+@import url("base.css");
+
+.photographers-container {
+    background: var(--dark-gray);
+}
+
+.cards-container {
+    display: flex;
+    gap: 3%;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+    height: 120%;
+}
+
+.card {
+    min-width: 400px;
+    width: 25%;
+}
+
+.media-with-rating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bi-star-fill {
+    color: rgb(234, 197,69);
+    font-size: 20px;
+}
+
+.bi-star-half {
+    color: rgb(234, 197,69);
+    font-size: 20px;
+}
+
+.rating {
+    display: flex;
+    gap: 3px;
+}
+
+.label {
+    color: var(--soft-gray);
+}
+
+.modal-card-head {
+    background: var(--light-gray);
+    border: 0;
+}
+
+.modal-card-title {
+    color: var(--soft-gray);
+}
+
+.modal-card-body {
+    background: var(--dark-gray);
+}
+
+.modal-card-foot {
+    background: var(--light-gray);
+    border: 0;
+}
+
+#date-input {
+    background: var(--light-gray);
+    color: var(--soft-gray);
+    border: 1px solid var(--maroon);
+    outline: 0;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.card-image {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 200px;
+}
+
+.img-1 {
+    background: url("../resources/manCloseUp.jpg");
+    background-position: 80px 0;
+    background-size: 310px;
+}
+
+.img-2 {
+    background: url("../resources/womanCloseup1.jpg");
+    background-position: -100px -45px;
+    background-size: 540px;
+}
+
+.img-3 {
+    background: url("../resources/manCloseup2.jpg");
+    background-position: 0px -140px;
+    background-size: 400px;
+}
+
+.img-4 {
+    background: url("../resources/womanCloseup2.jpg");
+    background-position: 0px -240px;
+    background-size: 450px;
+}
+
