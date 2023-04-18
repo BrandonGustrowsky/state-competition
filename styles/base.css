@@ -5,7 +5,8 @@
     --maroon: #774969;
     --redish: #DC395A;
     --bluish:#88CEE5;
-    --dark-gray: #1D2128;
+    --dark-gray: #1D2128; /** Taken from github.com **/
+    --light-gray: #343941; /** Taken from github.com **/
 }
 
 html, body {
