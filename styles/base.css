@@ -20,3 +20,13 @@ html, body, main {
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
+
+footer {
+    border-top: 1px solid white;
+    height: 105px;
+    line-height: 105px;
+    text-align: center;
+    background-color: var(--dark-gray);
+    font-size: 16px;
+    color: white;
+}
