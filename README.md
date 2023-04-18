@@ -5,7 +5,7 @@
     - Logo font: Snell Roundhand from Microsoft Word
 
 ## Templates
-    - Templting borrowed heavily from https://www.canva.com/templates/EAEkUdIy0So-white-and-black-simple-dark-design-portfolio-website/
+    - Website layout/templting borrowed heavily from https://www.canva.com/templates/EAEkUdIy0So-white-and-black-simple-dark-design-portfolio-website/
 
 ### Images
 - heroImg.jpg Photo by Jean-Daniel Francoeur: https://www.pexels.com/photo/photo-of-a-man-using-a-black-camera-2799785/ 
