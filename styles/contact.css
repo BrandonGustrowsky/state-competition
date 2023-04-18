@@ -40,7 +40,7 @@
 .contact-us-text {
     font-size: 40px;
     text-align: center;
-    color: var(--bluish);
+    color: white;
     font-weight: 700;
 }
 
@@ -51,13 +51,32 @@
     align-items: center;
 }
 
-.submit-btn  {
+.submission-btn  {
     background-color: var(--bluish);
 }
 
 #cancel-btn {
     background-color: var(--redish);
     color: white;
+}
+
+.after-text {
+    color: white;
+    display: none;
+}
+
+.submit-message {
+    color: white;  
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.error-text {
+    display: none;
+    color: var(--redish);
+    margin-bottom: 5px;
 }
 
 @media screen and (max-width: 900px) {
