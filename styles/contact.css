@@ -2,7 +2,7 @@
 @import url("contact.css");
 
 .containerBackground {
-    background: url("../resources/coffeeComputer.jpg");
+    background: url('../resources/contactImg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,8 +10,8 @@
 }
 
 .containerBackdrop {
-    backdrop-filter: blur(3px);
-    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
     
 }
 
