@@ -169,7 +169,15 @@ nav {
 }
 
 /* Stats Section */
+#stats {
+    background-color: var(--dark-gray);
+}
 .level  {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 950px;
+    margin: auto;
     background-color: var(--dark-gray);
 }
 
