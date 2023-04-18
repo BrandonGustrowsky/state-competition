@@ -168,11 +168,29 @@ nav {
     width: 245px;
 }
 
+/* Stats Section */
+.level  {
+    background-color: var(--dark-gray);
+}
+
+.level-item {
+    color: white;
+}
+
+.stats-number {
+    color: white;
+}
+  
 /* Gallery Section */
 #gallery {
+    box-sizing: border-box;
+    padding: 200px 0 100px;
     width: 100%;
-    height: 800px;
+    /* height: 1000px; */
     background-color: var(--dark-gray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .gallery-header {
@@ -202,7 +220,7 @@ nav {
 }
 
 .grid-img:hover {
-    transform: scale(1.35);
+    transform: scale(1.3);
     transition: 0.25s ease;
 }
 
@@ -252,4 +270,9 @@ nav {
     background-image: url('../resources/computer.jpg');
     grid-column: 4 / 5;
     grid-row: 2 / 4;
+}
+
+#gallery>a {
+    font-weight: 700;
+    
 }
